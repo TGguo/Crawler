@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Crawler</groupId>
+    <artifactId>Crawler</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/nekohtml.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>slf4j-api</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/slf4j-api-1.5.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>slf4j-simple</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/slf4j-simple-1.5.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/xalan.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>xerceslmpl</groupId>
+            <artifactId>xerceslmpl</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/xercesImpl.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+    </dependencies>
+
+</project>
