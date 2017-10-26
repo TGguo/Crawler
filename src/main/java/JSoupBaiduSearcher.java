@@ -136,7 +136,6 @@ public class JSoupBaiduSearcher implements Searcher {
         Scanner StringSearch = new Scanner(System.in);
         String Search = StringSearch.next();
         String url = "http://www.baidu.com/s?pn=0&wd=" + Search;
-        System.out.println(url);
 
         Searcher searcher = new JSoupBaiduSearcher();
         List<Webpage> webpages = searcher.search(url);
