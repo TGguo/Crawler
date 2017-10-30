@@ -14,35 +14,35 @@
             <artifactId>nekohtml</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/nekohtml.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/nekohtml.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>slf4j-api</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/slf4j-api-1.5.2.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/slf4j-api-1.5.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>slf4j-simple</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/slf4j-simple-1.5.2.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/slf4j-simple-1.5.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>xalan</groupId>
             <artifactId>xalan</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/xalan.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/xalan.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>xerceslmpl</groupId>
             <artifactId>xerceslmpl</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Guo/IdeaProjects/Crawler/src/main/resources/lib/xercesImpl.jar</systemPath>
+            <systemPath>${basedir}/src/main/resources/lib/xercesImpl.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -56,4 +56,15 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources/lib</directory>
+                <targetPath>BOOT-INF/lib/</targetPath>
+                <includes>
+                    <include>**/*.jar</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 </project>
